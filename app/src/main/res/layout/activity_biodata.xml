@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Biodata">
+
+    <ImageView
+            android:id="@+id/imgBio"
+            android:src="@drawable/foto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+    <TextView
+            android:id="@+id/namalabel_bio"
+            android:layout_below="@id/imgBio"
+            android:text="@string/nama_lengkaplabelbio"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/nama_bio"
+            android:layout_below="@id/imgBio"
+            android:text="@string/muhammad_ilham_aji_vachroni"
+            android:layout_toEndOf="@+id/namalabel_bio"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/nimlabel_bio"
+            android:layout_below="@id/namalabel_bio"
+            android:text="@string/nimlabelbio"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/nimbio"
+            android:layout_below="@id/namalabel_bio"
+            android:text="@string/_5170411131"
+            android:layout_toEndOf="@+id/nimlabel_bio"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/jklabel_bio"
+            android:layout_below="@id/nimlabel_bio"
+            android:text="@string/jenis_kelaminlabelbio"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/jk_bio"
+            android:layout_below="@id/nimlabel_bio"
+            android:text="@string/laki_lakibio"
+            android:layout_toEndOf="@+id/jklabel_bio"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/alamatlabel_bio"
+            android:layout_below="@id/jklabel_bio"
+            android:text="@string/alamatlabelbio"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/alamat_bio"
+            android:layout_below="@id/jklabel_bio"
+            android:text="@string/jepara_central_java"
+            android:layout_toEndOf="@+id/alamatlabel_bio"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

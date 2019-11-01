@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">5170411131_Responsi1</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="laki_laki">Laki-Laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="alamat">Alamat</string>
+    <string name="masuk">Masuk</string>
+    <string name="daftar_akun">Daftar Akun</string>
+    <string name="biodata">Biodata</string>
+    <string name="jenis_kelaminlabelbio">Jenis Kelamin :</string>
+    <string name="nama_lengkaplabelbio">Nama Lengkap :</string>
+    <string name="nimlabelbio">NIM :</string>
+    <string name="alamatlabelbio">Alamat :</string>
+    <string name="muhammad_ilham_aji_vachroni">Muhammad Ilham Aji Vachroni</string>
+    <string name="_5170411131">5170411131</string>
+    <string name="laki_lakibio">Laki - Laki</string>
+    <string name="jepara_central_java">Jepara, Central Java</string>
+    <string name="headerdetail">Header</string>
+    <string name="detail_deskkripsi_detail">detail deskkripsi</string>
+</resources>
